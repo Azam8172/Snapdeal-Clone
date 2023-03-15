@@ -1,0 +1,73 @@
+.comp-section {
+    width: 90%;
+    margin: 5%;
+}
+
+.comp-card {
+    display: flex;
+    align-items: center;
+}
+
+.comp-card .listimage {
+    width: 270px;
+    height: 270px;
+    margin: 10%;
+    position: relative;
+    left: 60px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    left: 170px;
+}
+
+.info .about{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 610px
+}
+.info .rating{
+    font-size: 15px;
+    margin: 10px;
+    width: 615px;
+    padding: 0 18px;
+}
+.info .pp{
+    width: 615px;
+    margin-top: 60px;
+    padding: 0 27px;
+}
+.allbtn .delivery{
+    font-size: 15px;
+    padding: 0 27px;
+}
+
+.finalPp{
+    padding: 10px 27px;
+}
+.btnAdd {
+    background-color: #e40046;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 11px 30px;
+    margin: 5px;
+    border: 2px solid #ffffff;
+    transition: .3s;
+    font-size: 15px;
+}
+.btn i {
+    margin-left: 12px;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 14px 12px;
+    background:#e40046;
+}

@@ -1,0 +1,99 @@
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.onecomp {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 12px;
+}
+
+.onecomp img {
+    width: 150px;
+    height: 150px;
+}
+
+.desccomp {
+    width: 50%;
+}
+
+.dele {
+    margin-right: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.totalall {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.total {
+    background-color: #e40046;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    position: fixed;
+}
+
+.total .tt {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.tt .t {
+    color: #dad7d8;
+    font-size: 28px;
+}
+
+.cartNavbar {
+    background-color: #e40046;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.complogo {
+    margin-left: 100px;
+}
+
+.secondnav {
+    width: 50px;
+    height: 50px;
+    background-color: #dad7d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 12px 20px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+}
+
+.count button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+    font-size: 22px;
+}

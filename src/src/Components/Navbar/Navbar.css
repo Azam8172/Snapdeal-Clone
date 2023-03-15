@@ -1,0 +1,249 @@
+.upper{
+    background-color:#C7003D;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 30px;
+    align-items:center ;
+}
+.upper-left{
+    padding: 6px 60px;
+    font-size: 12px;
+    font-weight: 200;
+    display: flex;
+}
+.upper-right .upper-list { 
+    display: flex; 
+}
+.upper-right .upper-list li {
+    list-style: none;
+}
+.upper-right .upper-list li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.section-navbar {
+    background-color: #e40046;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.allmenu {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 60%;
+}
+
+.search .input {
+    padding: 0 30px;
+    width: 70%;
+    height: 42px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search .onebtn {
+    /* padding: 9px 12px; */
+    width: 100px;
+    height: 43px;
+    background-color: rgb(26, 19, 19);
+    color: white;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+}
+.search .onebtn i{
+    font-size: 16px;
+}
+
+.extra {
+    display: flex;
+}
+.cartcomp .c {
+    width: 90px;
+    height: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 2px solid rgba(0,0,0,0.07);
+    transition: 0.5s;
+    
+}
+
+.extra .cart {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.cart a{
+    text-decoration: none;
+}
+
+.c span{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+   
+}
+.c >i{
+    font-size: 20px;
+}
+
+.set {
+    width: 100px;
+    height: 50px;
+    background-color: #e40046;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    /* transition: 0.5s; */
+    border-left: 2px solid rgba(0,0,0,0.07);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.cart span {
+    cursor: pointer;
+}
+
+.cartcomp {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.cartcomp span {
+    text-decoration: none !important;
+}
+
+
+.setuser {
+    width: 45px;
+    height: 45px;
+    background-color: #ce0e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.setuser img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.setuser i{
+    color: #fff;
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    /* .section-navbar {
+        background-color: #e40046;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+    } */
+
+    .extra .cart {
+        width: 50%;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search .input {
+        padding: 10px;
+        width: 60%;
+        outline: none;
+        border: none;
+
+    }
+
+    .search .onebtn {
+        padding: 11px 8px;
+        width: 90px;
+        background-color: rgb(26, 19, 19);
+        color: white;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .section-navbar {
+        background-color: #e40046;
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search .input {
+        display: none;
+
+    }
+
+    .search .onebtn {
+        display: none;
+    }
+
+    .allmenu {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .extra {
+        margin-right: 12px;
+    }
+
+    .logo {
+        margin-left: 18px;
+    }
+
+
+}

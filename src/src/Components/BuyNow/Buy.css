@@ -1,0 +1,78 @@
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 35px auto;
+    padding: 34px;
+    width: 65%;
+    height: 70vh;
+}
+.from {
+    padding: auto 12px;
+    /* margin: 10 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.name {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.name label {
+    font-size: 24px;
+    /* background-color: aqua; */
+    width: 350px;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.name input {
+    width: 620px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: start;
+}
+
+/* .pinCheck{
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    background-color: blueviolet;
+} */
+
+.name textarea{
+    border: 2px solid black;
+    width: 650px;
+    height: 60px;
+    margin-top: 10px;
+}
+.orderbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderBack{
+    background-color: #e40046;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 13px 38px;
+    margin: 25px auto;
+    border: 2px solid #000000;
+    transition: .3s;
+    font-size: 17px;
+}
+.orderBtn{
+    background-color: #e40046;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 4px 60px;
+    margin: 32px auto;
+    border: 2px solid #000000;
+    transition: .3s;
+    font-size: 17px;
+}
